@@ -51,3 +51,4 @@ Tech Stack
  
 Watch the project demonstration here: https://drive.google.com/file/d/1II-TTmcML4TQ-kAqQeqoCmjaEFmNuoFh/view?usp=sharing
 
+Access the hosted application here: https://inventory-4o4u.onrender.com
