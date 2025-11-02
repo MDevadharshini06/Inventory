@@ -167,7 +167,7 @@ def edit_location(id):
     if request.method == 'POST':
         location.name = request.form.get('name', location.name).strip()
         db.session.commit()
-        flash("✏ Location updated.")
+        flash(" Location updated.")
         return redirect(url_for('locations'))
 
     return render_template('edit_location.html', location=location)
@@ -178,7 +178,7 @@ def delete_location(id):
     location = Location.query.get_or_404(id)
     db.session.delete(location)
     db.session.commit()
-    flash("🗑 Location deleted.")
+    flash(" Location deleted.")
     return redirect(url_for('locations'))
 
 
