@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block body_class %}home-page{% endblock %}
+{% block content %}
+
+  <div class="home-overlay-buttons">
+    <a class="btn small" href="{{ url_for('products') }}">View Products</a>
+  <a class="btn small" href="{{ url_for('report') }}" style="margin-left:8px;">View Report</a>
+  </div>
+
+
+{% endblock %}
